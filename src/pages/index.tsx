@@ -18,7 +18,6 @@ const Home: NextPage = () => {
     const getData = async () => {
       const data = await getUsers(offSet, limit)
       setData(data)
-      return data
     }
 
     getData()
@@ -96,7 +95,6 @@ const Home: NextPage = () => {
             <Input 
               type='number' 
               placeholder='Page'
-              defaultValue={offSet+1}
               value={offSet+1}
               onChange={e => {
                 goToPage(e)
