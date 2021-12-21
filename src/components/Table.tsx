@@ -1,10 +1,10 @@
-/* eslint-disable react/jsx-key */
+/* eslint-disable*/
 import React from 'react'
 import { Table, Thead, Tbody, Tr, Th, Td, chakra } from '@chakra-ui/react'
 import { TriangleDownIcon, TriangleUpIcon } from '@chakra-ui/icons'
 import { useTable, useSortBy, usePagination } from 'react-table'
 
-const MyTable = ({columns, data}: any) => {
+const MyTable = ({columns, data}) => {
 
   const { getTableProps,
     getTableBodyProps,
@@ -21,7 +21,6 @@ const MyTable = ({columns, data}: any) => {
                 {headerGroup.headers.map((column) => (
                   <Th
                     {...column.getHeaderProps(column.getSortByToggleProps())}
-                    isNumeric={column.isNumeric}
                   >
                     {column.render('Header')}
                     <chakra.span pl='4'>
@@ -44,7 +43,7 @@ const MyTable = ({columns, data}: any) => {
               return (
                 <Tr {...row.getRowProps()}>
                   {row.cells.map((cell) => (
-                    <Td {...cell.getCellProps()} isNumeric={cell.column.isNumeric}>
+                    <Td {...cell.getCellProps()}>
                       {cell.render('Cell')}
                     </Td>
                   ))}

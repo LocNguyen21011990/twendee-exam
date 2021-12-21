@@ -96,7 +96,8 @@ const Home: NextPage = () => {
             <Input 
               type='number' 
               placeholder='Page'
-              defaultValue={0}
+              defaultValue={offSet+1}
+              value={offSet+1}
               onChange={e => {
                 goToPage(e)
               }}
