@@ -1,10 +1,10 @@
 /* eslint-disable react/jsx-key */
 import React from 'react'
-import { Table, Thead, Tbody, Tr, Th, Td, chakra, Button } from '@chakra-ui/react'
-import { ChevronLeftIcon, ChevronRightIcon, Icon, TriangleDownIcon, TriangleUpIcon } from '@chakra-ui/icons'
+import { Table, Thead, Tbody, Tr, Th, Td, chakra } from '@chakra-ui/react'
+import { TriangleDownIcon, TriangleUpIcon } from '@chakra-ui/icons'
 import { useTable, useSortBy, usePagination } from 'react-table'
 
-const MyTable = ({columns, data}) => {
+const MyTable = ({columns, data}: any) => {
 
   const { getTableProps,
     getTableBodyProps,
