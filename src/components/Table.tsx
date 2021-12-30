@@ -14,7 +14,7 @@ const MyTable = ({columns, data}) => {
     
     return (
     <>
-        <Table {...getTableProps()}>
+        <Table {...getTableProps()} data-testid="mytable">
           <Thead>
             {headerGroups.map((headerGroup) => (
               <Tr {...headerGroup.getHeaderGroupProps()}>

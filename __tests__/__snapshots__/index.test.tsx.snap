@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the app without crashing Renders the home page 1`] = `
+<table
+  class="chakra-table css-0"
+  data-testid="mytable"
+  role="table"
+>
+  <thead
+    class="css-0"
+  >
+    <tr
+      class="css-0"
+      role="row"
+    >
+      <th
+        class="css-0"
+        colspan="1"
+        role="columnheader"
+        style="cursor: pointer;"
+        title="Toggle SortBy"
+      >
+        Full Name
+        <span
+          class="css-131wcsq"
+        />
+      </th>
+      <th
+        class="css-0"
+        colspan="1"
+        role="columnheader"
+        style="cursor: pointer;"
+        title="Toggle SortBy"
+      >
+        Username
+        <span
+          class="css-131wcsq"
+        />
+      </th>
+      <th
+        class="css-0"
+        colspan="1"
+        role="columnheader"
+        style="cursor: pointer;"
+        title="Toggle SortBy"
+      >
+        Thumbnail Icon
+        <span
+          class="css-131wcsq"
+        />
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    class="css-0"
+    role="rowgroup"
+  />
+</table>
+`;
+
+exports[`Table matches snapshot Renders the home page 1`] = `
+<table
+  class="chakra-table css-0"
+  data-testid="mytable"
+  role="table"
+>
+  <thead
+    class="css-0"
+  >
+    <tr
+      class="css-0"
+      role="row"
+    >
+      <th
+        class="css-0"
+        colspan="1"
+        role="columnheader"
+        style="cursor: pointer;"
+        title="Toggle SortBy"
+      >
+        Full Name
+        <span
+          class="css-131wcsq"
+        />
+      </th>
+      <th
+        class="css-0"
+        colspan="1"
+        role="columnheader"
+        style="cursor: pointer;"
+        title="Toggle SortBy"
+      >
+        Username
+        <span
+          class="css-131wcsq"
+        />
+      </th>
+      <th
+        class="css-0"
+        colspan="1"
+        role="columnheader"
+        style="cursor: pointer;"
+        title="Toggle SortBy"
+      >
+        Thumbnail Icon
+        <span
+          class="css-131wcsq"
+        />
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    class="css-0"
+    role="rowgroup"
+  />
+</table>
+`;
